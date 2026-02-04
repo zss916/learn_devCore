@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="title_login">Login</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_login">欢迎登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="hide_password">隐藏密码</string>
+    <string name="login_button">登录</string>
+
+    <!-- User List Screen -->
+    <string name="users_list">Users List</string>
+    <string name="refresh">Refresh</string>
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="retry">Retry</string>
+
+    <!-- User Card -->
+    <string name="phone_label">Phone: %1$s</string>
+    <string name="city_label">City: %1$s</string>
+    <string name="company_label">Company: %1$s</string>
+</resources>

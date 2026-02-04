@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="title_login">تسجيل الدخول</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome_login">مرحباً بك</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="show_password">إظهار كلمة المرور</string>
+    <string name="hide_password">إخفاء كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    
+    <!-- User List Screen -->
+    <string name="users_list">قائمة المستخدمين</string>
+    <string name="refresh">تحديث</string>
+    <string name="error_prefix">خطأ: %1$s</string>
+    <string name="retry">إعادة المحاولة</string>
+    
+    <!-- User Card -->
+    <string name="phone_label">الهاتف: %1$s</string>
+    <string name="city_label">المدينة: %1$s</string>
+    <string name="company_label">الشركة: %1$s</string>
+</resources>
+
