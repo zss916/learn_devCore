@@ -6,13 +6,13 @@ plugins {
 android {
     namespace = "com.xxx.devcore"
     compileSdk {
-        version = release(36)
+        version = release(37)
     }
 
     defaultConfig {
         applicationId = "com.xxx.devcore"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 

@@ -31,7 +31,6 @@ fun SquareScreen(
     BackHandler {
         (context as? ComponentActivity)?.finish()
     }
-
     Box(modifier = Modifier.fillMaxSize()) {
         when (val state = uiState) {
             is SquareUiState.Loading -> LoadingIndicator()

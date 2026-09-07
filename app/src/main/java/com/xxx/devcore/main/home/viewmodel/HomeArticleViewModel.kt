@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import com.ssz.network.Result
+import kotlinx.coroutines.flow.update
 
 ///todo UiState
 sealed class HomeArticleUiState {
@@ -53,6 +54,7 @@ class HomeArticleViewModel(
         val currentState = _uiState.value
         if (currentState is HomeArticleUiState.Success) {
             _uiState.value = currentState.copy(isRefreshing = true)
+           // _uiState.update {  }
         }
         load(page = 0, pageSize = pageSize, isRefresh = true)
         loadBanners()

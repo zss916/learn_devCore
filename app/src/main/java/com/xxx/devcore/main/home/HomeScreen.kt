@@ -1,5 +1,6 @@
 package com.xxx.devcore.main.home
 
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Box
@@ -15,6 +16,7 @@ import com.xxx.devcore.main.LoadingIndicator
 import com.xxx.devcore.main.home.viewmodel.HomeArticleUiState
 import com.xxx.devcore.main.home.viewmodel.HomeArticleViewModel
 import com.xxx.devcore.compose.ArticleList
+import timber.log.Timber
 
 /**
  * 首页：显示文章列表
@@ -31,6 +33,8 @@ fun HomeScreen(
     // 在首页按返回键直接退出应用
     BackHandler {
         (context as? ComponentActivity)?.finish()
+        //Timber.d("HomeScreen BackHandler")
+        //Timber.tag("HomeScreen ==>").d("HomeScreen BackHandler")
     }
 
     Box(modifier = Modifier.fillMaxSize()) {

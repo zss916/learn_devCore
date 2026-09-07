@@ -59,7 +59,8 @@ class MainActivity : ComponentActivity() {
         
         // 初始化CookieJar用于持久化存储登录cookie
         RetrofitInstance.initCookieJar(applicationContext)
-        
+
+        ///todo !!!!
         // 设置全屏模式
         setupFullScreen()
         
